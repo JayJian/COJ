@@ -41,7 +41,17 @@ export class DataService {
         return res.json();
       })
       .catch(this.handleError);
+  }
 
+  buildAndRun(data): Promise<Object> {
+    let headers = new Headers({'content-type':'application/json'});
+    return this.http.post("/api/v1/build_and_run", data, headers)
+      .toPromise()
+      .then((res: Response) =>{
+        console.log(res);
+        return res.json();
+      })
+      .catch(this.handleError);
   }
 
 
