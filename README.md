@@ -3,7 +3,7 @@
 A web-based collaborative code editor which supports multiple user editing simultaneously 
 
   
-	Angular2 is used to be the framework.
+	Angular2 is used to be the basic framework.
   
 	WebSocket(socket.io) and Redis are used to implement the functionality of istant messaging
   
