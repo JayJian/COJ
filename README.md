@@ -1,6 +1,8 @@
 # COJ
 
-A web-based collaborative code editor which supports multiple user editing simultaneously 
+Overview
+Collaborative Online Judge System (COJ) is a full-stack system supporting collaborative code editing, compiling, execution and result judgement. This document covers the details of the implementation of Collaborative Editor and User Code Executor from an engineering perspective. 
+
 
   
 	Angular2 is used to be the basic framework.
